@@ -41,7 +41,6 @@ async function searchPokemon(){
         <p>Height:${pokemonInfos.height}</p>  
       </div>
       `
-      console.log(pokemonInfos);
       pokemonInfo.innerHTML = html;
     }
   });
